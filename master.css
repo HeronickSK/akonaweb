@@ -1,0 +1,167 @@
+html {
+  margin: 0;
+}
+body {
+  margin: 0;
+}
+strong {
+  color: rgb(37, 80, 176);
+    background-color: rgb(233, 232, 232);
+}
+#html {
+  float: right;
+}
+.HTML {
+  color: rgb(37, 80, 176);
+}
+.h1 {
+  color: rgb(97, 94, 94);
+  font-size: 50px;
+  font-stretch: extra-condensed;
+  font-family: 'Allerta Stencil', 'Signika', 'Anton','Black Han Sans', sans-serif;
+  display:inline-block;
+    -webkit-transform:scale(1.65,1);
+    -moz-transform:scale(1.65,1);
+    -ms-transform:scale(1.65,1);
+    -o-transform:scale(1.65,1);
+    transform:scale(1.65,1);
+  text-align: left;
+  /*text-shadow: 1px 1px 10px black;
+  background-image: linear-gradient(rgb(145, 145, 145), #ffffff);*/
+  margin-left: 50px;
+  margin-right: 0;
+  margin-bottom: 0;
+  margin-top: 5px;
+}
+.h2 {
+  color: rgb(97, 94, 94);
+  font-weight: 400;
+  font-style: italic;
+  font-size: 30px;
+  text-align: left;
+  display:outline-block;
+    -webkit-transform:scale(1,0.9);
+    -moz-transform:scale(1,0.9);
+    -ms-transform:scale(1,0.9);
+    -o-transform:scale(1,0.9);
+    transform:scale(1,0.9);
+  /*text-shadow: 1px 1px 10px black;
+  background-image: linear-gradient(rgb(145, 145, 145), #ffffff);*/
+  padding: 0px 0px 0px 15px;
+  margin: -5px 0px 10px 0px;
+}
+.h3 {
+  font-size: 30px;
+  margin-top: 15px;
+  margin-bottom: 10px;
+  display:inline-block;
+  -webkit-transform:scale(1,1.1);
+  -moz-transform:scale(1,1.1);
+  -ms-transform:scale(1,1.1);
+  -o-transform:scale(1,1.1);
+  transform:scale(1,1.1);
+}
+.leftH {
+  display: block;
+  color: black;
+  font-size: 25px;
+  padding: 0px 5px 0px 10px;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+.link {
+  padding: 9px 10px 10px 10px;
+  margin: 0px -1.5px 0px -1.5px;
+  overflow: hidden;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 20px;
+  color: #ffffff;
+}
+.link:hover{
+  background-color: rgb(37, 80, 176);
+}
+.ob {
+  position: relative;
+  text-align: center;
+  width: 100%;
+  display: block;
+  padding: 5px 5px 9px 5px;
+  padding-right: auto;
+  margin: 0;
+  float: left;
+  background-color: rgb(145, 145, 145);
+  box-shadow: -5px 3px 20px black;
+}
+.podstr {
+  width: 150px;
+  height: 100%;
+  /*overflow: scroll;*/
+  float: left;
+  margin-right: 20px;
+  margin-top: 23px;
+}
+.poda {
+  text-decoration: none;
+  display: block;
+  color: black;
+  font-size: 20px;
+  padding: 5px 5px 0px 10px;
+}
+.textik{
+  border-radius: 10px;
+  margin: 8px 25px 2px 10px;
+  display: block;
+  width: 53%;
+  float: left;
+}
+/*#dom {
+  margin-left: 175px;
+}*/
+.pre {
+  padding: 0px 10px 0px 20px;
+}
+.prik {
+  top: 150px;
+  right: 20px;
+  position: fixed;
+  border-radius: 10px;
+  margin: 23px 5px 2px 15px;
+  display: block;
+  width: 30%;
+  float: left;
+  box-shadow: 0px 1px 10px black;
+}
+#html {
+  top: 150px;
+  right: 20px;
+  position: fixed;
+  border-radius: 10px;
+  margin: 23px 5px 2px 15px;
+  display: block;
+  width: 30%;
+  float: left;
+  box-shadow: 0px 1px 10px black;
+}
+#css {
+  top: 350px;
+  right: 20px;
+  position: fixed;
+  border-radius: 10px;
+  margin: 23px 5px 2px 15px;
+  display: block;
+  width: 30%;
+  float: left;
+  box-shadow: 0px 1px 10px black;
+}
+#javascript {
+  top: 550px;
+  right: 20px;
+  position: fixed;
+  border-radius: 10px;
+  margin: 23px 5px 2px 15px;
+  display: block;
+  width: 30%;
+  float: left;
+  box-shadow: 0px 1px 10px black;
+}
