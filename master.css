@@ -72,9 +72,9 @@ strong {
 #domc {
   margin-bottom: -3px;
 }
-/*#domc:hover{
-  background-image: url(/home2.svg);
-}*/
+#domc:hover{
+  background-image: url(home2.svg);
+}
 .link {
   padding: 9px 10px 10px 10px;
   margin: 0px -1.5px 0px -1.5px;
