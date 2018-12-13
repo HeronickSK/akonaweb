@@ -69,11 +69,17 @@ strong {
   margin-top: 0;
   margin-bottom: 10px;
 }
-#domc {
-  margin-bottom: -3px;
+.link-domc {
+  height:25px;
+  padding: 9px 10px 10px 10px;
+  margin:-8px 0 -15px 0;
+  content: url("home.svg")
 }
-a:hover {
-  background-image: url(home2.svg);
+.link-domc:hover{
+  content: url("home2.svg");
+  padding: 6px 10px 10px 10px;
+  margin:-5px 0 -15px 0;
+  background-color: rgb(37, 80, 176);
 }
 .link {
   padding: 9px 10px 10px 10px;
