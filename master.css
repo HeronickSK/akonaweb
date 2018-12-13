@@ -72,7 +72,7 @@ strong {
 #domc {
   margin-bottom: -3px;
 }
-a {
+a:hover {
   background-image: url(home2.svg);
 }
 .link {
