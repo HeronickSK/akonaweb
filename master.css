@@ -127,6 +127,9 @@ strong {
   width: 53%;
   float: left;
 }
+.w3-image {
+  max-width:50%;height:auto
+}
 /*#dom {
   margin-left: 175px;
 }*/
