@@ -1,0 +1,174 @@
+﻿<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="master.css">
+    <link href="https://fonts.googleapis.com/css?family=Allerta+Stencil|Anton|Black+Han+Sans|Signika" rel="stylesheet">
+    <title>Ako na HTML</title>
+    <style>table,th,td{border: 1px solid black;}</style>
+  </head>
+
+  <body>
+    <div class="headline" id="headnav">
+      <h1 class="h1">AN<span class="HTML">H</span></h1>
+      <h2 class="h2">Ako na <span class="HTML">HTML</span></h2>
+    </div>
+
+    <div class="ob" id="obnav">
+      <a href="index.html"  class="link">️ <img src="home.svg" id="domc" height=25px alt=""> </a>
+      <a href="html.html" class="link">HTML</a>
+      <a href="css.html" class="link">CSS</a>
+      <a href="js.html" class="link">JavaScript</a>
+    </div>
+
+    <div class="podstr">
+      <h4 class="leftH">HTML</h4>
+      <a class="poda" href="linky.html">HTML linky</a>
+      <a class="poda" href="tabulky.html">HTML tabulky</a>
+      <a class="poda" href="xxx.html">HTML nieco</a>
+      <a class="poda" href="xxx.html">HTML nieco</a>
+    </div>
+
+    <div class="textik">
+      <h3 class="h3"><span class="HTML">HTML Tabuľky</span></h3>
+       <h4 class="leftH">Definovanie HTML tabuľky</h4>
+        <p>
+            Tabuľka HTML je definovaná značkou <strong>table</strong>.Každý riadok je definovaný značkou <strong>tr</strong>. Tabuľka záhlavia je definovaná značkou <strong>th</strong>. Predvolene sú hlavičky tabuľky tučné a sústredené. Tabuľka údajov / bunka je definovaná značkou <strong>td</strong>.</p>
+        <table style="width:100%">
+            <tr>
+                <th>Meno</th>
+                <th>Priezvisko</th>
+                <th>Vek</th>
+            </tr>
+            <tr>
+                <td>Jill</td>
+                <td>Smith</td>
+                <td>50</td>
+            </tr>
+            <tr>
+                <td>Eve</td>
+                <td>Jackson</td>
+                <td>94</td>
+            </tr>
+            <tr>
+                <td>John</td>
+                <td>Doe</td>
+                <td>80</td>
+            </tr>
+        </table>
+        <h4 class="leftH">Okraje tabuľky</h4>
+        <p>Ak neurčíte hranicu pre tabuľku, bude zobrazená bez okrajov.Okraj sa nastavuje pomocou <a href="css.html">CSS</a>:</p>
+        <p><strong>table, th, td {    border: 1px solid black;    }</strong></p>
+        <p>Ak chcete ohraničiť okraje do jedného okraja, pridajte vlastnosť CSS <strong>border collapse</strong>:</p>
+        <p>príklad: <strong>table, th, td {  border: 1px solid black;  border-collapse: collapse;}</strong></p>
+        <p><strong>Cell padding</strong> špecifikuje priestor medzi obsahom buniek a jeho hranicami.Ak neurčíte padding bunky tabuľky sa zobrazia bez padding(polstrovania).</p>
+        <p>príklad: <strong>th, td {  padding: 15px;}</strong></p>
+        <hr>
+        <h4 class="leftH">Poloha hlavičiek</h4>
+        <p>Predvolene sú hlavičky tabuľky tučné a centrované. Pre nastavenie polohy hlavičky v bunke sa používa <strong>text-aligh</strong>.</p>
+        <p>príklad: <strong>th {
+  text-align: left;
+}</strong></p>
+        <hr>
+        <h4 class="leftH">Vzdialenost buniek tabulky</h4>
+        <p>Medzeri medzi bunkami sa určujú cez <strong>border-spacing</strong></p>
+        <p>príklad: <strong>table {
+  border-spacing: 5px;
+}</strong> <b>NEPLATÍ</b> ak tabuľka má okraje zlúčené</p>
+        <hr>
+        <h4 class="leftH">Viac buniek v jednom stĺpci</h4>
+        <p>Viac buniek sa určuje cez <strong>colspan</strong>, ktorý sa nepíše do CSS ale priamo do tabuľky(poz.2).</p>
+        <table style="width:100%">
+            <tr>
+                <th>Meno</th>
+                <th colspan="2">úspechy</th>
+            </tr>
+            <tr>
+                <td>Jožko</td>
+                <td>vie počítať do 5</td>
+                <td>vie variť párky</td>
+            </tr>
+        </table> 
+        <h4 class="leftH">Viac buniek v jednom riadku</h4>
+        <p>Viac buniek sa určuje cez <strong>rowspan</strong>, ktorý sa nepíše do CSS ale priamo do tabuľky(poz.3).</p>
+        <table style="width:100%">
+            <tr>
+                <th>Meno:</th>
+                <td>Jožko</td>
+            </tr>
+            <tr>
+                <th rowspan="2">úspechy:</th>
+                <td>vie počítať do 5</td>
+            </tr>
+            <tr>
+                <td>vie uvariť párky</td>
+            </tr>
+        </table> 
+        <hr>
+        <h4 class="leftH">Pridanie titulku tabuľke</h4>
+        <p>Pre pridanie titulku sa používa <strong>caption</strong>(poz.4).</p>
+        <hr>
+        <h4 class="leftH">Nastavenie špeciálnych stýlov pre konkrétnu tabuľku</h4>
+        <p>Na špecifikovnie vlasností tabuľky sa pridá tabuľke <strong>id</strong> a vlastnosti sa napíšu do <a href="css.html">CSS</a>(poz.5).</p>
+        
+</div>
+    <div class="prik">
+        <pre class="pre">
+POZNAMKY
+1 &lt;table style="width:100%"&gt;
+            &lt;tr&gt;
+                &lt;th&gt;Meno&lt;/th&gt;
+                &lt;th&gt;Priezvisko&lt;/th&gt;
+                &lt;th&gt;Vek&lt;/th&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+                &lt;td&gt;Jill&lt;/td&gt;
+                &lt;td&gt;Smith&lt;/td&gt;
+                &lt;td&gt;50&lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+                &lt;td&gt;Eve&lt;/td&gt;
+                &lt;td&gt;Jackson&lt;/td&gt;
+                &lt;td&gt;94&lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+                &lt;td&gt;John&lt;/td&gt;
+                &lt;td&gt;Doe&lt;/td&gt;
+                &lt;td&gt;80&lt;/td&gt;
+            &lt;/tr&gt;
+        &lt;/table&gt;
+2   &lt;table style="width:100%"&gt;
+        &lt;tr&gt;
+             &lt;th&gt;Meno&lt;/th&gt;
+             &lt;th colspan="2"&gt;úspechy&lt;/th&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+             &lt;td&gt;Jožko&lt;/td&gt;
+             &lt;td&gt;vie počítať do 5&lt;/td&gt;
+             &lt;td&gt;vie variť párky&lt;/td&gt;
+        &lt;/tr&gt;
+    &lt;/table&gt;
+3  &lt;table style="width:100%"&gt;
+            &lt;tr&gt;
+                &lt;th&gt;Meno:&lt;/th&gt;
+                &lt;td&gt;Jožko&lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+                &lt;th rowspan="2"&gt;úspechy:&lt;/th&gt;
+                &lt;td&gt;vie počítať do 5&lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+                &lt;td&gt;vie uvariť párky&lt;/td&gt;
+            &lt;/tr&gt;
+        &lt;/table&gt;
+4 &lt;caption>Titulok&lt;/caption&gt;
+5 &lt;table id="t01">&lt;/tablegt;
+</pre>
+
+      </p>
+    </div>
+
+  </body>
+
+</html>
