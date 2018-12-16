@@ -132,6 +132,7 @@ strong {
 }*/
 .pre {
   padding: 0px 10px 0px 20px;
+  word-wrap: break-word;
 }
 .prik {
   top: 150px;
