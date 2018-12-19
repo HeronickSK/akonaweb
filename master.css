@@ -106,7 +106,7 @@ strong {
   box-shadow: -5px 3px 20px black;
 }
 .podstr {
-  width: 150px;
+  width: 170px;
   height: 100%;
   /*overflow: scroll;*/
   float: left;
@@ -127,15 +127,11 @@ strong {
   width: 53%;
   float: left;
 }
-.w3-image {
-  max-width:50%;height:auto
-}
 /*#dom {
   margin-left: 175px;
 }*/
 .pre {
   padding: 0px 10px 0px 20px;
-  word-wrap: break-word;
 }
 .prik {
   top: 150px;
@@ -174,6 +170,39 @@ strong {
   top: 580px;
   right: 20px;
   position: fixed;
+  border-radius: 10px;
+  margin: 23px 5px 2px 15px;
+  display: block;
+  width: 30%;
+  float: left;
+  box-shadow: 0px 1px 10px black;
+}
+#MP {
+  top: 770px;
+  right: 20px;
+  position: absolute;
+  border-radius: 10px;
+  margin: 23px 5px 2px 15px;
+  display: block;
+  width: 30%;
+  float: left;
+  box-shadow: 0px 1px 10px black;
+}
+#Gender {
+  top: 950px;
+  right: 20px;
+  position: absolute;
+  border-radius: 10px;
+  margin: 23px 5px 2px 15px;
+  display: block;
+  width: 30%;
+  float: left;
+  box-shadow: 0px 1px 10px black;
+}
+#Submit {
+  top: 1230px;
+  right: 20px;
+  position: absolute;
   border-radius: 10px;
   margin: 23px 5px 2px 15px;
   display: block;
