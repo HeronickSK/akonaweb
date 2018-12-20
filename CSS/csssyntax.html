@@ -49,11 +49,6 @@ Deklarácia CSS vždy končí bodkočiarkou a bloky deklarácie sa nachádzajú 
 </p> <p>
 V nasledujúcom príklade budú všetky prvky zarovnané v strede s červenou farbou textu:
 </p>
-
-<span style="color:brown">p<span style="color:black"> {
-  <span style="color:red">color<span style="color:black">:<span style="color:mediumblue"> red<span style="color:black">;
-  <span style="color:red">text-align<span style="color:black">:<span style="color:mediumblue"> center<span style="color:black">;
-}
 <br>
 <h2>CSS selektory </h2>
 <p>CSS Selektor sa používa na "vyhľadanie" (alebo výber) prvkov HTML na základe ich prvkového názvu, ID, triedy, atribútu atď.
@@ -67,10 +62,7 @@ Môžete vybrať všetky prvky < p> (paragrafu) na stránke ako napríklad takto
 (v tomto prípade všetky prvky < p> (paragrafu) budú zarovnané v strede s červenou farbou textu):
 </p>
 
-<span style="color:brown">p<span style="color:black"> {
-  <span style="color:red">color<span style="color:black">:<span style="color:mediumblue"> red<span style="color:black">;
-  <span style="color:red">text-align<span style="color:black">:<span style="color:mediumblue"> center<span style="color:black">;
-}<br><br>
+<br>
 <hr>
 <h2>ID selektor</h2>
 <p>ID selektor používa id atribút HTML prvku na vybratie špecifického prvku(elementu).
@@ -81,10 +73,8 @@ Môžete vybrať všetky prvky < p> (paragrafu) na stránke ako napríklad takto
 </p>
 <p>Pravidlo štýlu nižšie uvedeného sa použije na prvok HTML s id = "para1":
 </p>
-<span style="color:brown">#para1<span style="color:black"> {
-  <span style="color:red">color<span style="color:black">:<span style="color:mediumblue"> red<span style="color:black">;
-  <span style="color:red">text-align<span style="color:black">:<span style="color:mediumblue"> center<span style="color:black">; }
-    <br><br>
+
+<br>
 <p>
   <strong>Poznámka:</strong> Identifikátor (ID) nemôže začínať číslom!
 </p>
@@ -92,29 +82,12 @@ Môžete vybrať všetky prvky < p> (paragrafu) na stránke ako napríklad takto
 <h2>Zoskupujúce selektory</h2>
 <p> Ak máte prvky s rovnakými definíciami štýlov, ako napríklad:</p>
 
-<p><span style="color:brown">h1<span style="color:black"> {
-  <span style="color:red">color<span style="color:black">:<span style="color:mediumblue"> red<span style="color:black">;
-  <span style="color:red">text-align<span style="color:black">:<span style="color:mediumblue"> center<span style="color:black">; }
-</p>
-  <p>  <span style="color:brown">h2<span style="color:black"> {
-      <span style="color:red">color<span style="color:black">:<span style="color:mediumblue"> red<span style="color:black">;
-      <span style="color:red">text-align<span style="color:black">:<span style="color:mediumblue"> center<span style="color:black">; }
-</p>
-  <p>      <span style="color:brown">p<span style="color:black"> {
-          <span style="color:red">color<span style="color:black">:<span style="color:mediumblue"> red<span style="color:black">;
-          <span style="color:red">text-align<span style="color:black">:<span style="color:mediumblue"> center<span style="color:black">; }
-            <br><br>
-</p>
-
+<br> <br>
 <p>Bude lepšie zoskupiť selektory, aby sa minimalizoval kód.
 </p>
 <p>Ak chcete zoskupiť selektory, oddeľte každý selektor čiarkou.
 </p>
 <p>V nižšie uvedenom príklade sme zoskupili selektory z vyššie uvedeného kódu:
-</p>
-<p>      <span style="color:brown">h1, h2, p <span style="color:black"> {
-        <span style="color:red">color<span style="color:black">:<span style="color:mediumblue"> red<span style="color:black">;
-        <span style="color:red">text-align<span style="color:black">:<span style="color:mediumblue"> center<span style="color:black">; }
 </p>
 <hr>
 <h2>CSS komentáre</h2>
@@ -124,18 +97,71 @@ Môžete vybrať všetky prvky < p> (paragrafu) na stránke ako napríklad takto
 </p>
 <p>Komentár CSS začína /* a končí s */. Komentáre môžu zahŕňať aj viacero riadkov:
 </p>
-<p>      <span style="color:brown">h1<span style="color:black"> {
-        <span style="color:red">color<span style="color:black">:<span style="color:mediumblue"> red<span style="color:black">;</p><p>
-      <span style="color:green">      /* Toto je komentár s jedným riadkom */<span style="color:green"></p><p>
-        <span style="color:red">    text-align<span style="color:black">:<span style="color:mediumblue"> center<span style="color:black">; }
+
+<div id="syn1" class="prik">
+  <p class="pre">
+<span style="color:brown">p<span style="color:black"> {
+<span style="color:red">color<span style="color:black">:<span style="color:mediumblue"> red<span style="color:black">;
+<span style="color:red">text-align<span style="color:black">:<span style="color:mediumblue"> center<span style="color:black">;
+    }
+  </p>
+</div>
+
+<div id="syn2" class="prik">
+  <p class="pre">
+<span style="color:brown">p<span style="color:black"> {
+<span style="color:red">color<span style="color:black">:<span style="color:mediumblue"> red<span style="color:black">;
+<span style="color:red">text-align<span style="color:black">:<span style="color:mediumblue"> center<span style="color:black">;
+}
+  </p>
+</div>
+
+<div id="syn3" class="prik">
+  <p class="pre">
+<span style="color:brown">#para1<span style="color:black"> {
+<span style="color:red">color<span style="color:black">:<span style="color:mediumblue"> red<span style="color:black">;
+<span style="color:red">text-align<span style="color:black">:<span style="color:mediumblue"> center<span style="color:black">; }
+  </p>
+</div>
+
+<div id="syn4" class="prik">
+  <p class="pre">
+<span style="color:brown">h1<span style="color:black"> {
+<span style="color:red">color<span style="color:black">:<span style="color:mediumblue"> red<span style="color:black">;
+<span style="color:red">text-align<span style="color:black">:<span style="color:mediumblue"> center<span style="color:black">; }
+  </p>
+  <p class="pre">
+<span style="color:brown">h2<span style="color:black"> {
+<span style="color:red">color<span style="color:black">:<span style="color:mediumblue"> red<span style="color:black">;
+<span style="color:red">text-align<span style="color:black">:<span style="color:mediumblue"> center<span style="color:black">; }
+  </p>
+  <p class="pre">
+<span style="color:brown">p<span style="color:black"> {
+<span style="color:red">color<span style="color:black">:<span style="color:mediumblue"> red<span style="color:black">;
+<span style="color:red">text-align<span style="color:black">:<span style="color:mediumblue"> center<span style="color:black">; }
+  </p>
+</div>
+
+<div id="syn5" class="prik">
+  <p class="pre">
+<span style="color:brown">h1, h2, p <span style="color:black"> {
+<span style="color:red">color<span style="color:black">:<span style="color:mediumblue"> red<span style="color:black">;
+<span style="color:red">text-align<span style="color:black">:<span style="color:mediumblue"> center<span style="color:black">; }
+  </p>
+</div>
+
+<div id="syn6" class="prik">
+  <p class="pre">
+<span style="color:brown">h1<span style="color:black"> {
+<span style="color:red">color<span style="color:black">:<span style="color:mediumblue"> red<span style="color:black">;</p><p class="pre">
+<span style="color:green">      /* Toto je komentár s jedným riadkom */<span style="color:green"></p><p class="pre">
+<span style="color:red">    text-align<span style="color:black">:<span style="color:mediumblue"> center<span style="color:black">; }
 </p><span style="color:green">
-<p>/* Toto je</p>
-<p>viacriadkový</p>
-<p>komentár * /</p>
-
-
-
-
+<p class="pre">/* Toto je</p>
+<p class="pre">viacriadkový</p>
+<p class="pre">komentár * /</p>
+  </p>
+</div>
 
     </div>
 
