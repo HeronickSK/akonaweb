@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="../master.css, ../pos.css">
+    <link href="https://fonts.googleapis.com/css?family=Allerta+Stencil|Anton|Black+Han+Sans|Signika" rel="stylesheet">
+    <title>Ako na HTML</title>
+  </head>
+
+  <body>
+    <div class="headline" id="headnav">
+      <h1 class="h1">AN<span class="HTML">H</span></h1>
+      <h2 class="h2">Ako na <span class="HTML">HTML</span></h2>
+    </div>
+
+    <div class="ob" id="obnav">
+      <a href="index.html"  class="link-domc">️ <img src="../home.svg"> </a>
+      <a href="html.html" class="link">HTML</a>
+      <a href="css.html" class="link">CSS</a>
+      <a href="js.html" class="link">JavaScript</a>
+    </div>
+
+    <div class="podstr">
+      <h4 class="leftH">HTML</h4>
+      <a class="poda" href="linky.html">HTML linky</a>
+      <a class="poda" href="tabulky.html">HTML tabulky</a>
+      <a class="poda" href="formulare.html">HTML formuláre</a>
+      <a class="poda" href="text.html">HTML text</a>
+      <a class="poda" href="styl.html">HTML štýly</a>
+      <a class="poda" href="obrazky">Obrazky</a>
+    </div>
+
+    <div class="textik">
+      <h3 class="h3">Niečo ohľadom <span class="HTML">HTML</span></h3>
+        <div id="OBRAZKY">
+          <h2>Obrázky</h2>
+          <p>Obrázky sú dôležitou súčasťou webstránky a všeobecne dokážu zlepšiť dizajn a celkový vzhľad webstránky.</p>
+    <hr>
+
+    <div id="Obrázky a ich vkladanie">
+        <h2>Obrázky a ich vkladanie</h2>
+        <p>Obrázky a ich vkladanie do kódu je možné jednoducho pomocou tohoto kódu:</p>
+
+        <img src="obrazky\stromcek.jpg" alt="nadherny_strom">
+    </div>
+
+    <hr>
+
+    <div id="Syntax obrázkov">
+      <h2>Syntax obrázkov</h2>
+
+      <p> V HTML sú obrázky definované značkou &lt;img&gt;.</p>
+      <p> Značka &lt;img&gt; je prázdna, obsahuje iba atribúty a nemá uzavieraciu značku.</p>
+      <p>  Atribút src špecifikuje adresu URL (webovú adresu) obrázka:</p>
+      &lt;img src="url"&gt;
+    </div>
+
+    <hr>
+
+    <div id="alt atribút">
+      <h2>alt atribút</h2>
+
+      <p> Atribút alt poskytuje alternatívny text pre obrázok, ak ho používateľ z nejakého dôvodu nemôže zobraziť (kvôli pomalému pripojeniu, chybe v atribúte src alebo ak používateľ používa čítačku obrazovky).</p>
+      <p> Hodnota atribútu alt by mala čo najpersnejšie a najjednoduchšie popisovať obrázok:</p>
+
+      <p><img src="obrazky\grecka_ulica.jpg" alt="ulica_s_kvietkami" ></p>
+    </div>
+
+    <hr>
+
+    <div id="Veľkosť obrázku - šírka a výška">
+      <h2>Veľkosť obrázku - šírka a výška</h2>
+
+      <p>Atribút štýlu môžete použiť na určenie šírky a výšky obrázku:</p>
+
+      <p><img src="obrazky\vodopad.jpg" alt="vodopad_slovensky_raj" style="width:370px;height:470px;"></p>
+      <p> Prípadne môžete použiť atribúty šírky a výšky:</p>
+
+      <img src="obrazky\arduino.jpg" alt="arduino uno r3" width="500" height="600">
+      <p>Atribúty šírky a výšky vždy definujú šírku a výšku obrázka v pixeloch.</p>
+      <p>Vždy určte šírku a výšku obrázka. Ak nie je zadaná šírka a výška, stránka počas načítania obrázka môže blikať.</p>
+    </div>
+
+    <hr>
+
+    <div id="Šírka a výška alebo štýl?">
+      <h2>Šírka a výška alebo štýl?</h2>
+
+      <p>Atribúty šírky, výšky a štýlu sú platné v jazyku HTML5.
+         Navrhujeme však použiť atribút štýlu. Zabraňuje tomu, aby tabuľky štýlov zmenili veľkosť obrázkov:.</p>
+      <h4>Príklad:</h4>
+
+      <p>Obrázok nižšie má atribút šírky nastavený na 128 pixelov, ale štýl listu ho prepíše a nastaví šírku na 100%.</p>
+      <img src="obrazky\htm15.gif" alt="HTML5 Icon" width="128" height="128">
+    </div>
+
+    <hr>
+
+    <div id="Obrázky v inom priečinku">
+      <h2>Obrázky v inom priečinku</h2>
+      <p>Ak nie je uvedené, prehliadač očakáva, že nájde obrázok v rovnakom priečinku ako webová stránka.
+        Je však bežné uložiť obrázky v podadresári. Musíte potom zahrnúť názov priečinka do atribútu src:</p>
+      <p>Je obvyklé uložiť obrázky v podadresári. Musíte potom zahrnúť názov priečinka do atribútu src</p>
+      <h4>Príklad:</h4>
+
+      <img src="inypriecinok\aliexpres.png" alt="ali Icon" style="width:128px;height:128px;">
+    </div>
+
+    <hr>
+
+    <div id="Obrázky na inom serveri (webovom)">
+      <h2>Obrázky na inom serveri (webovom)</h2>
+      <p>Niektoré webové stránky ukladajú svoje obrázky na obrázkové servery.
+        V skutočnosti môžete pristupovať k obrázkom z akejkoľvek webovej adresy na svete:</p>
+
+      <h4>Príklad:</h4>
+
+      <img src="https://www.w3schools.com/images/w3schools_green.jpg" alt="W3Schools.com">
+    </div>
+
+    <hr>
+    <div id="Animované obrázky(gify)">
+      <h2>Animované obrázky(GIFy)</h2>
+      <p>HTML umožňuje zverejňovať aj  animované GIFy: </p>
+
+      <h4>Príklad:</h4>
+
+      <img src="obrazky\avokado.gif" alt="avokádo" style="width:250px;height:250px;">
+    </div>
+
+    <hr>
+
+    <div id="Obrázok ako odkaz">
+      <h2>Obrázok ako odkaz</h2>
+      <p>Ak chcete použiť obrázok ako odkaz, vložte tag &lt;img&gt; do tagu &lt;a&gt;:</p>
+
+      <h4>Príklad:</h4>
+
+      <a href="default.asp">
+        <img src="obrazky\smiley.gif" alt="HTML tutorial" style="width:42px;height:42px;border:0;">
+      </a>
+    </div>
+
+    <hr>
+
+    <div id="Pohybujúci sa obrázok">
+      <h2>Pohybujúci sa obrázok</h2>
+      <p>Použite vlastnosť floating CSS a nechajte obrázok pohybovať sa vpravo alebo vľavo od textu:</p>
+
+      <h4>Príklad:</h4>
+
+      <p><strong>Zatlačte obrázok doprava</strong></p>
+
+      <img src="obrazky\smiley.gif" alt="Smiley face" style="float:right;width:42px;height:42px;">
+      <p>Odsek s plávajúcim obrázkom.Odsek s plávajúcim obrázkomOdsek s plávajúcim obrázkom.</p>
+
+      <p><strong>Zatlačte obrázok doľava</strong></p>
+
+      <img src="obrazky\smiley.gif" alt="Smiley face" style="float:left;width:42px;height:42px;">
+      <p>Odsek s plávajúcim obrázkomOdsek s plávajúcim obrázkomOdsek s plávajúcim obrázkom.</p>
+    </div>
+
+    <hr>
+
+    <div id="Mapy obrázkov">
+      <h2>Mapy obrázkov</h2>
+      <p>Značka &lt;map&gt; definuje mapu obrázkov. Obrazová mapa je obrázok s oblasťami, na ktoré môžete kliknúť.
+      Na obrázku nižšie kliknite na počítač, telefón alebo šálku kávy:</p>
+
+      <h4>Príklad:</h4>
+
+      <img src="obrazky\workplace.jpg" alt="Workplace" usemap="#workmap" width="400" height="379">
+
+      <map name="workmap">
+        <area shape="rect" coords="34,44,270,350" alt="Computer" href="computer.html">
+        <area shape="rect" coords="290,172,333,250" alt="Phone" href="phone.html">
+        <area shape="circle" coords="337,300,44" alt="Cup of coffee" href="coffee.html">
+      </map>
+    </div>
+
+    <hr>
+    <div id="Obrázok do pozadia">
+      <h2>Obrázok do pozadia</h2>
+      <p>Značka &lt;map&gt; definuje mapu obrázkov. Obrazová mapa je obrázok s oblasťami, na ktoré môžete kliknúť.
+      Na obrázku nižšie kliknite na počítač, telefón alebo šálku kávy:</p>
+
+      <h4>Príklad:</h4>
+
+      <img src="obrazky\clouds.jpg" alt="mraky">
+      <p>Ak použijete príkaz vyššie, tak sa vám pozadie zmení na daný obrázok(mraky).
+      Teraz som ten príkaz nepoužil keďže pozadie na celej tejto stránke by sa zmenilo.</p>
+
+      <h4>Príklad2:</h4>
+      <p style="background-image:url('clouds.jpg')">
+      Môžete určiť obrázky na pozadí<br>
+      pre každý viditeľný prvok HTML.<br>
+      V tomto príklade je obrázok na pozadí<br>
+      a je špecifikovaný pre tento odsek.<br>
+      Štandardne je obrázok pozadia<br>
+      buď v opakujúcom sa smere (smeroch)<br>
+      kde je menší ako prvok<br>
+      kde je uvedené. (Skúste zmeniť veľkosť<br>
+      okna prehliadača, aby ste zistili, ako<br>
+      sa správajú obrázky pozadia.</p>
+    </div>
+
+    <hr>
+    <div id="Element <picture>">
+      <h2>Element &lt;picture&gt;</h2>
+      <p>HTML5 uviedol prvok &lt;picture&gt;, aby pri určovaní zdrojov obrázkov pridal väčšiu flexibilitu.
+      Element &lt;picture&gt; obsahuje niekoľko prvkov &lt;source&gt;, z ktorých každý odkazuje na rôzne zdroje obrazu. Týmto spôsobom môže prehliadač vybrať obraz, ktorý najlepšie vyhovuje aktuálnemu zobrazeniu a / alebo zariadeniu.
+      Každý prvok &lt;source&gt; má atribúty popisujúce, kedy je jeho obraz najvhodnejší.
+      Prehliadač použije prvý prvok &lt;source&gt; s zodpovedajúcimi hodnotami atribútov a ignoruje všetky nasledujúce prvky &lt;source&gt;.</p>
+
+      <h4>Príklad:</h4>
+
+      <picture>
+        <source media="(min-width: 1500px)" srcset="obrazky\img_pink_flowers.jpg">
+        <source media="(min-width: 850px)" srcset="obrazky\img_white_flower.jpg">
+        <img src="obrazky\img_orange_flowers.jpg" alt="Flowers" style="width:auto;">
+      </picture>
+
+      <p>  Zamieňajte veľkosti prehliadača, aby sa zobrazili rôzne verzie načítania obrázkov v rôznych veľkostiach výrezov.
+      Prehliadač hľadá prvý zdrojový prvok, kde sa mediálny dopyt zhoduje s aktuálnou šírkou zobrazenia používateľa,
+      a načíta obrázok špecifikovaný v atribúte srcset.</p>
+
+      <p> Prvok img sa vyžaduje ako posledná podradená značka bloku deklarácie obrázkov.
+      Prvok img slúži na poskytovanie spätnej kompatibility pre prehliadače, ktoré nepodporujú obrazový prvok, alebo ak sa nezhoduje so žiadnou zo zdrojových značiek.</p>
+      <p>Toto nie je podporované v IE12 a starších verziách alebo Safari 9.0 a starších.</p>
+    </div>
+
+    <hr>
+
+    <div id="Čítače obrazovky HTML">
+      <h2>Čítače obrazovky HTML</h2>
+      <p>Čítače obrazovky HTML
+      Čítačka obrazovky je softvérový program, ktorý číta kód HTML, konvertuje text a umožňuje používateľovi "počúvať(listen)" obsah. Čítačky obrazovky sú užitočné pre
+      ľudí, ktorí sú zrakovo postihnutí alebo učia sa.</p>
+    </div>
+
+    <hr>
+
+    <div id="ZHRNUTIE KAPITOLY OBRÁZKY">
+      <h1>ZHRNUTIE KAPITOLY OBRÁZKY</h1>
+      <ul>
+        <li>Použite prvok HTML &lt;img&gt; na definovanie obrázka</li>
+        <li>Použite atribút HTML src na definovanie adresy URL obrázka</li>
+        <li>Použite atribút HTML alt, ak chcete definovať alternatívny text pre obrázok, ak ho nemožno zobraziť</li>
+        <li>Pomocou atribútov šírky a výšky HTML môžete definovať veľkosť obrázka</li>
+        <li>Použite vlastnosti šírky a výšky CSS na definovanie veľkosti obrázka (alternatívne)</li>
+        <li>Použite vlastnosť CSS float, aby ste nechali obrázok plávať</li>
+        <li>Použite prvok HTML &lt;map&gt; na definovanie mapy obrázkov</li>
+        <li>Pomocou prvku HTML &lt;area> môžete definovať oblasti, na ktoré môžete kliknúť, na mape obrázkov</li>
+        <li>Pomocou atribútu usmerňovacieho prvku HTML &lt;img&gt; použite ukazovateľ obrázku</li>
+        <li>Pomocou prvku HTML &lt;picture&gt; zobrazte rôzne obrázky pre rôzne zariadenia</li>
+      </ul>
+          <hr>
+
+          <div id="obr1" class="prik">
+            <p class="pre">
+&lt;img src="pic_trulli.jpg" alt="Italian Trulli"&gt;
+            </p>
+          </div>
+
+          <div id="obr2" class="prik">
+            <p class="pre">
+&lt;img src="grecka_ulica.jpg" alt="ulica_s_kvietkami" width="460" height="345"&gt;
+            </p>
+          </div>
+
+          <div id="obr3" class="prik">
+            <p class="pre">
+&lt;img src="vodopad.jpg" alt="vodopad_slovensky_raj" style="width:370px;height:470px;"&gt;
+            </p>
+          </div>
+
+          <div id="obr4" class="prik">
+            <p class="pre">
+&lt;img src="arduino.jpg" alt="arduino uno r3" width="500" height="600"&gt;
+            </p>
+          </div>
+
+          <div id="obr5" class="prik">
+            <p class="pre">
+&lt;img src="obrazky\htm15.gif" alt="HTML5 Icon" width="128" height="128"&gt;
+            </p>
+          </div>
+
+          <div id="obr6" class="prik">
+            <p class="pre">
+&lt;img src="inypriecinok\aliexpres.png" alt="ali Icon" style="width:128px; height:128px;"&gt;
+            </p>
+          </div>
+
+          <div id="obr7" class="prik">
+            <p class="pre">
+&lt;img src="https://www.w3schools.com/images/w3schools_green.jpg" alt="W3Schools.com"&gt;
+            </p>
+          </div>
+
+          <div id="obr8" class="prik">
+            <p class="pre">
+&lt;img src="avokado.gif" alt="avokádo" style="width:250px; height:250px;"&gt;
+            </p>
+          </div>
+
+          <div id="obr9" class="prik">
+            <p class="pre">
+&lt;img src="smiley.gif" alt="HTML tutorial" style="width:42px; height:42px; border:0;"&gt;
+            </p>
+          </div>
+
+          <div id="obr10" class="prik">
+            <p class="pre">
+&lt;img src="obrazky\smiley.gif" alt="Smiley face" style="float:left; width:42px; height:42px;"&gt;
+            </p>
+          </div>
+
+          <div id="obr11" class="prik">
+            <p class="pre">
+&lt;img src="obrazky\smiley.gif" alt="Smiley face" style="float:right; width:42px; height:42px;"&gt;
+            </p>
+          </div>
+
+          <div id="obr12" class="prik">
+            <p class="pre">
+&lt;img src="obrazky\workplace.jpg" alt="Workplace" usemap="#workmap" width="400" height="379"&gt; <br>
+&lt;map name="workmap"&gt; <br>
+&lt;area shape="rect" coords="34,44,270,350" alt="Computer" href="computer.html"&gt; <br>
+&lt;area shape="rect" coords="290,172,333,250" alt="Phone" href="phone.html"&gt; <br>
+&lt;area shape="circle" coords="337,300,44" alt="Cup of coffee" href="coffee.html"&gt; <br>
+&lt;/map&gt; <br>
+            </p>
+          </div>
+
+          <div id="obr13" class="prik">
+            <p class="pre">
+&lt;body style="background-image:url('clouds.jpg')"&gt;
+            </p>
+          </div>
+
+          <div id="obr14" class="prik">
+            <p class="pre">
+&lt;picture&gt; <br>
+&lt;source media="(min-width: 1500px)" srcset="obrazky\img_pink_flowers.jpg"&gt; <br>
+&lt;source media="(min-width: 850px)" srcset="obrazky\img_white_flower.jpg"&gt; <br>
+&lt;img src="obrazky\img_orange_flowers.jpg" alt="Flowers" style="width:auto;"&gt; <br>
+&lt;/picture&gt; <br>
+            </p>
+          </div>
+
+
+
+  </body>
+
+</html>
