@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="master.css">
+    <link href="https://fonts.googleapis.com/css?family=Allerta+Stencil|Anton|Black+Han+Sans|Signika" rel="stylesheet">
+    <title>Ako na HTML</title>
+  </head>
+
+  <body>
+    <div class="headline" id="headnav">
+      <h1 class="h1">AN<span class="HTML">H</span></h1>
+      <h2 class="h2">Ako na <span class="HTML">HTML</span></h2>
+    </div>
+
+    <div class="ob" id="obnav">
+      <a href="index.html"  class="link-domc">️ <img src="home.svg"> </a>
+      <a href="html.html" class="link">HTML</a>
+      <a href="css.html" class="link">CSS</a>
+      <a href="js.html" class="link">JavaScript</a>
+    </div>
+
+    <div class="podstr">
+      <h4 class="leftH">CSS</h4>
+
+      <a class="poda" href="css.html">CSS Intro</a>
+      <a class="poda" href="csssyntax.html">CSS Syntax</a>
+      <a class="poda" href="cssakonato.html">CSS Ako na to</a>
+      <a class="poda" href="cssviacerostyle.html">CSS Viacero štýlov</a>
+    </div>
+
+    <div class="textik">
+      <h3 class="h3"> <span class="HTML">CSS</span> Ako na to </h3>
+      <br>
+      <hr>
+
+
+    <p>
+       Keď prehliadač prečíta štýl stránky, zformátuje dokument HTML podľa informácii v štýle.
+    </p>
+<p>
+  <h3>Tri možnosti ako vložiť CSS</h3>
+</p>
+<p>
+   - externý štýl<br>- interný štýl<br>- Inline štýl
+</p>
+<br><hr>
+<p>
+  <h3>Externý štýl</h3>
+</p>
+<p>
+  S externým štýlom možeme zmeniť výzor celej stránky zmenou jedného súboru!<br>
+  Každá stránka musí obsahovať odkaz na externý súbor štýlu v prvku &ltlink&gt. &ltlink&gt prvok patrí do sekcie &lthead&gt:
+</p>
+<br><br>
+<p>
+  Externý štýl môže byť napísaný v textovom editore. Súbor by nemal obsahovať HTML tagy. Štýl musí byť uložený s .css príponou.<br>
+  Takto vyzerá  "mystyle.css":
+</p>
+<p>  <strong> <span style="color:black"> Medzi hodnotu a veličinu NEPRIDÁVAJTE MEDZERU!<br> Správne je to: <span style="color:red">20px</strong>
+</p><br><br>
+<hr>
+  <h2>Interný štýl </h2>
+<p>Interný štýl može byť použitý ak má jedna stránka unikátny štýl.<br>
+Interný štýl je definovaný v &ltstyle&gt prvku a v &lthead&gt sekcii HTML stránky:</p>
+<br><br><br><br><br><br><br>
+<hr>
+
+  <h2>Inline štýl </h2>
+
+<p>  Inline štýl môže byť použitý na aplikovanie unikátneho štýlu na jediný prvok</p>
+
+<p>  Na použitie inline štýlu, pridajte štýl atribútu na releventný prvok. Štýlový atribút môže obsahovať akýkoľvek CSS príkaz.</p>
+
+<p>Príklad ukazuje ako zmeniť farbu a ľavý okraj &lth1&gt prvku:</p>
+
+    </div>
+
+    </div>
+
+  <div id="ex1">
+    <p>
+      <pre class="pre">
+<span style="color:mediumblue">&lt<span style="color:brown">head<span style="color:mediumblue">&gt<br>
+<span style="color:mediumblue">&lt<span style="color:brown">link <span style="color:red">rel<span style="color:mediumblue">="stylesheet"
+<span style="color:red">type<span style="color:mediumblue">="text/css" <span style="color:red">href<span style="color:mediumblue">="mystyle.css"><br>
+<span style="color:mediumblue">&lt<span style="color:brown">/head<span style="color:mediumblue">&gt</pre>
+    </p>
+  </div>
+
+  <div id="ex2">
+    <p>
+      <pre class="pre">
+<span style="color:brown">body {
+<span style="color:red">  background-color: <span style="color:mediumblue">lightblue;
+<span style="color:brown">}
+<span style="color:brown">h1 <span style="color:black">{
+<span style="color:red">  color: <span style="color:mediumblue">navy;
+<span style="color:red">  margin-left: <span style="color:mediumblue">20px;
+<span style="color:brown">}</pre>
+    </p>
+  </div>
+
+  <div id="INT">
+    <p>
+      <pre class="pre">
+<span style="color:mediumblue">&lt<span style="color:brown">head<span style="color:mediumblue">&gt <br>
+<span style="color:mediumblue">&lt<span style="color:brown">style<span style="color:mediumblue">&gt
+<span style="color:brown">body {
+<span style="color:red"> background-color: <span style="color:mediumblue">linen;
+<span style="color:brown">}
+h1 {
+<span style="color:red"> color: <span style="color:mediumblue">maroon;
+<span style="color:red"> margin-left: <span style="color:mediumblue">40px;
+<span style="color:brown">}
+<span style="color:mediumblue">&lt<span style="color:brown">/style<span style="color:mediumblue">&gt <br>
+<span style="color:mediumblue">&lt<span style="color:brown">/head<span style="color:mediumblue">&gt</pre>
+    </p>
+  </div>
+
+  <div id="inl">
+    <p>
+      <pre class="pre">
+<span style="color:mediumblue">&lt<span style="color:brown">h1 <span style="color:red">style<span style="color:mediumblue">´"color:blue;margin-left:30px;"&gt<span style="color:black">This is heading<span style="color:mediumblue">&lt<span style="color:brown">/h1<span style="color:mediumblue">&gt</p></pre>
+    </p>
+  </div>
+
+  </body>
+
+</html>
