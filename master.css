@@ -298,3 +298,91 @@ strong {
   float: left;
   box-shadow: 0px 1px 10px black;
 }
+#far{
+  top: 370px;
+  right: 20px;
+  position: absolute;
+  border-radius: 10px;
+  margin: 23px 5px 2px 15px;
+  display: block;
+  width: 30%;
+  float: left;
+  box-shadow: 0px 1px 10px black;
+}
+#font{
+  top: 730px;
+  right: 20px;
+  position: absolute;
+  border-radius: 10px;
+  margin: 23px 5px 2px 15px;
+  display: block;
+  width: 30%;
+  float: left;
+  box-shadow: 0px 1px 10px black;
+}
+#font2{
+  top: 875px;
+  right: 20px;
+  position: absolute;
+  border-radius: 10px;
+  margin: 23px 5px 2px 15px;
+  display: block;
+  width: 30%;
+  float: left;
+  box-shadow: 0px 1px 10px black;
+}
+#vyr{
+  top: 1160px;
+  right: 20px;
+  position: absolute;
+  border-radius: 10px;
+  margin: 23px 5px 2px 15px;
+  display: block;
+  width: 30%;
+  float: left;
+  box-shadow: 0px 1px 10px black;
+}
+#ram{
+  top: 1360px;
+  right: 20px;
+  position: absolute;
+  border-radius: 10px;
+  margin: 23px 5px 2px 15px;
+  display: block;
+  width: 30%;
+  float: left;
+  box-shadow: 0px 1px 10px black;
+}
+#prsi {
+  top: 980px;
+  right: 20px;
+  position: absolute;
+  border-radius: 10px;
+  margin: 23px 5px 2px 15px;
+  display: block;
+  width: 30%;
+  float: left;
+  box-shadow: 0px 1px 10px black;
+}
+#del {
+  top: 1350px;
+  right: 20px;
+  position: absolute;
+  border-radius: 10px;
+  margin: 23px 5px 2px 15px;
+  display: block;
+  width: 30%;
+  float: left;
+  box-shadow: 0px 1px 10px black;
+}
+#poz {
+  top: 1730px;
+  right: 20px;
+  position: absolute;
+  border-radius: 10px;
+  margin: 23px 5px 2px 15px;
+  display: block;
+  width: 30%;
+  float: left;
+  box-shadow: 0px 1px 10px black;
+}
